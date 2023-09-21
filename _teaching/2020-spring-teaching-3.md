@@ -4,13 +4,13 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "University 1, Department"
-date: 2022-04-01
+date: 2014-01-01
 location: "City, Country"
 ---
 
-This is the class notes of MITx 6.86x Machine Learning with Python-From Linear Models to Deep Learning
+This is a description of a teaching experience. You can use markdown like any other post.
 
-Perceptron
+Heading 1
 ======
 
 Heading 2

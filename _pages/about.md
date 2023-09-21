@@ -15,6 +15,7 @@ My path to data science
 ======
 I have made a lot of effort to learn data science Here is my path to learn:
 -[Learning note](https://cs.stanford.edu/people/karpathy/advice.html)
+My first exposure to the field of machine learning came when I was preparing for the American College 
 
 Math
 ------
