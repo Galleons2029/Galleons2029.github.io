@@ -14,6 +14,7 @@ redirect_from:
 My path to data science
 ======
 I have made a lot of effort to learn data science Here is my path to learn:
+-[Learning note](https://cs.stanford.edu/people/karpathy/advice.html)
 
 Math
 ------
