@@ -15,17 +15,17 @@ Education
 * M.S. in Data Science and Graph Theory, Tsinghua University tbsi, 2024 (expected)
 * Ph.D (expected)
 
-Work experience
+Research experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2022: Reinforcement Learning
+  * XiangTan University
+  * Duties included: Algorithm research
+  * Supervisor: QiuZheng Wang
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Spring 2022: E-commerce in Southeast Asia
+  * ESSEC Business School (Singapore)
+  * Duties included: Data analysis
+  * Supervisor: Yan Li
   
 Skills
 ======
