@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in XiangTan, XiangTan University, 2020
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in XiangTan, XiangTan University, 2020 - 2024
+* M.S. in Data Science and Graph Theory, Tsinghua University tbsi, 2024 (expected)
+* Ph.D (expected)
 
 Work experience
 ======
