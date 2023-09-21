@@ -10,23 +10,15 @@ tags:
 
 This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
 
-````latex
-\begin{algorithm}
-\caption{Perceptron Algorithm}
-\begin{algorithmic}[1]
-\Procedure{Perceptron}{$\left{\left(x^{(i)}, y^{(i)}\right), i=1, \ldots, n\right}, T$}
-\State Initialize $\theta=0$ \Comment{Vector}
-\For{$t = 1, \ldots, T$}
-\For{$i = 1, \ldots, n$}
-\If{$y^{(i)}\left(\theta \cdot x^{(i)}\right) \leq 0$}
-\State Update $\theta=\theta+y^{(i)} x^{(i)}$
-\EndIf
-\EndFor
-\EndFor
-\EndProcedure
-\end{algorithmic}
-\end{algorithm}
-````
+1. **Perceptron Algorithm**
+   - Input: \( \left\{ \left( x^{(i)}, y^{(i)} \right), i=1, \ldots, n \right\}, T \)
+   - Initialize \( \theta = 0 \) (vector)
+
+2. For each \( t = 1, \ldots, T \)
+   1. For each \( i = 1, \ldots, n \)
+      - If \( y^{(i)} \left( \theta \cdot x^{(i)} \right) \leq 0 \)
+         - Update: \( \theta = \theta + y^{(i)} x^{(i)} \)
+
 
 Headings are cool
 ======
