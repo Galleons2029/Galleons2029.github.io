@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-欢迎来到我的学术主页，我是柳佳龙。Welcome to my personal websites, I'm Galleons, a undergraduate student in 
+欢迎来到我的学术主页，我是柳佳龙。Welcome to my personal websites, I'm Galleons, an undergraduate student from XiangTan University hoping to become a data engineer.
+
 
 My path to data science
 ======
