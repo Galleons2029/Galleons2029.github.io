@@ -21,8 +21,10 @@ We will cover:
 
 
 
-Perceptron
+Perceptron 
 ======
+
+Perceptron is the fundamental module of machine learning.
 
 Heading 2
 ======
