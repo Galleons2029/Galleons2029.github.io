@@ -12,7 +12,7 @@ This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum
 
 10 Key properties of Determinant
 ======
-1. **The determinant of the n by n identity matrix is 1.**
+- **Rule 1: The determinant of the n by n identity matrix is 1.**
 $$\left|\begin{array}{ll}
 1 & 0 \\
 0 & 1
@@ -22,7 +22,7 @@ $$\left|\begin{array}{ll}
 & & 1
 \end{array}\right|=1 \text {. }$$
 
-2. **The determinant changes sign when two rows are exchanged (sign reversal):**
+- **Rule 2: The determinant changes sign when two rows are exchanged (sign reversal):**
 $$
 \text { Check: }\left|\begin{array}{ll}
 c & d \\
@@ -36,7 +36,7 @@ Because of this rule, we can find det P for any permutation matrix. Just exchang
 det P = -l for an odd number.
 The third rule has to make the big jump to the determinants of all matrices. 
 
-3. **The determinant is a linear function of each row separately (all other rows stay fixed).**
+- **Rule 3: The determinant is a linear function of each row separately (all other rows stay fixed).**
 $$
 \begin{aligned}
 & \left|\begin{array}{cc}
@@ -68,7 +68,7 @@ t & 0 \\
 \end{array}\right|=t^2 \text {. }
 $$
 
-4. **If two rows of A are equal, then $let A = 0$.**
+- **Rule 4: If two rows of A are equal, then $let A = 0$.**
 
 $$
 \text { Equal rows } \quad \text { Check } 2 \text { by } 2:\left|\begin{array}{ll}
@@ -79,9 +79,8 @@ $$
 
 Rule 4 follows from rule 2.
 
-5. **Subtracting a multiple of one row from another row leaves det A unchanged.**
-$$
-\begin{aligned}
+- **Rule 5: Subtracting a multiple of one row from another row leaves det A unchanged.**
+$$\begin{aligned}
 & \ell \text { times row } 1 \\
 & \text { from row } 2
 \end{aligned} \quad\left|\begin{array}{cc}
@@ -90,8 +89,7 @@ c-\ell a & d-\ell b
 \end{array}\right|=\left|\begin{array}{ll}
 a & b \\
 c & d
-\end{array}\right| .
-$$
+\end{array}\right| .$$   
 from Rule 3 (linearity).
 
 **Conclusion**: The determinant is not changed by the usual elimination steps from A to U. 
@@ -99,7 +97,7 @@ Thus det A equals det U. If we can find determinants of triangular matrices U, w
 find determinants of all matrices A. Every row exchange reverses the sign, so always 
 det A= ± det U. Rule 5 has narrowed the problem to triangular matrices. 
 
-6. **A matrix with a row of zeros has det A = 0.**
+- **Rule 6: A matrix with a row of zeros has det A = 0.**
 $$
 \text { Row of zeros } \quad\left|\begin{array}{ll}
 0 & 0 \\
@@ -110,7 +108,7 @@ a & b \\
 \end{array}\right|=0 \text {. }
 $$
 
-7. **If A is triangular then $\operatorname{det} A=a_{11} a_{22} \cdots a_{n n}=$ product of diagonal entries.**
+- **Rule 7: If A is triangular then $\operatorname{det} A=a_{11} a_{22} \cdots a_{n n}=$ product of diagonal entries.**
 $$
 \text { Triangular } \quad\left|\begin{array}{ll}
 a & b \\
@@ -130,7 +128,7 @@ a_{11} & & & 0 \\
 \end{array}\right]=\left(a_{11}\right)\left(a_{22}\right) \cdots\left(a_{n n}\right) \text {. }
 $$
 
-8. **If $A$ is singular then $\operatorname{det} A=0$. If $A$ is invertible then $\operatorname{det} A \neq 0$.**
+- **Rule 8: If $A$ is singular then $\operatorname{det} A=0$. If $A$ is invertible then $\operatorname{det} A \neq 0$.**
 $$
 \text { Singular } \quad\left[\begin{array}{ll}
 a & b \\
@@ -153,7 +151,7 @@ $$
 \text { If } P A=L U \text { then } \operatorname{det} P \operatorname{det} A=\operatorname{det} L \operatorname{det} U \text { and } \operatorname{det} A= \pm \operatorname{det} U \text {. }
 $$
 
-9. **The determinant of $A B$ is $\operatorname{det} A$ times $\operatorname{det} B:|A B|=|A||B|$.**
+- **Rule 9: The determinant of $A B$ is $\operatorname{det} A$ times $\operatorname{det} B:|A B|=|A||B|$.**
 $$
 \text { Product rule } \quad\left|\begin{array}{ll}
 a & b \\
@@ -170,7 +168,7 @@ $$
 A \text { times } A^{-1} \quad A A^{-1}=I \text { so } \quad(\operatorname{det} A)\left(\operatorname{det} A^{-1}\right)=\operatorname{det} I=1 .
 $$
 
-10. **The transpose $A^{\mathrm{T}}$ has the same determinant as $A$.**
+- **Rule 10: The transpose $A^{\mathrm{T}}$ has the same determinant as $A$.**
 $$
 \text { Transpose }\left|\begin{array}{ll}
 a & b \\
