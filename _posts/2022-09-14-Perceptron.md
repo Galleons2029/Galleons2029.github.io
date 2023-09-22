@@ -1,7 +1,7 @@
 ---
-title: 'An introduction of Perceptron '
+title: 'An introduction of Perceptron'
 date: 2022-09-14
-permalink: /posts/2012/08/2022-09-14-blog-post-5/
+permalink: /posts/2012/08/Perceptron/
 tags:
   - cool posts
   - category1
