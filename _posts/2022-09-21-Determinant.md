@@ -188,5 +188,5 @@ $$
 You can have many headings
 ======
 
-Aren't headings cool?
+Important comment on columns
 ------
