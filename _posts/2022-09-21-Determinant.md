@@ -69,12 +69,14 @@ t & 0 \\
 $$
 
 4. **If two rows of A are equal, then $let A = 0$.**
+
 $$
 \text { Equal rows } \quad \text { Check } 2 \text { by } 2:\left|\begin{array}{ll}
 a & b \\
 a & b
 \end{array}\right|=0\text {. }
 $$
+
 Rule 4 follows from rule 2.
 
 5. **Subtracting a multiple of one row from another row leaves det A unchanged.**
