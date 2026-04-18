@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "JiaLong Liu（柳佳龙）"
   avatar           : "profile.png"
-  bio              : "XiangTan University"
-  location         : "XiangTan"
-  employer         :
+  bio              : "Wuhan University"
+  location         : "Beijing, China"
+  employer         : "Wuhan University"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :  Galleons@foxmail.com
@@ -103,13 +103,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  X                : "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
