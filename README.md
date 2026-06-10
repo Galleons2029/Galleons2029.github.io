@@ -1,4 +1,4 @@
-# Galleons 的数字花园
+# Galleons 的个人主页
 
 基于 [Quartz 5](https://quartz.jzhao.xyz/) 构建的个人博客 / 数字花园，用于直接发布 Obsidian 笔记。站点地址：<https://galleons2029.github.io>
 
