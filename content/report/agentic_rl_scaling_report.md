@@ -1,4 +1,12 @@
-# Agentic RL 的三重 Scaling 与工程落地调研报告
+---
+title: Agentic RL 的三重 Scaling 与工程落地调研报告
+tags:
+  - Agentic RL
+  - RL Scaling
+  - Engineering
+publish: true
+---
+
 ## Environment / Task / Agentic-RL Scaling 全景(2025–2026)
 
 > 范围说明:本报告以"环境—任务—算法"三个规模化维度为主线,聚焦 2025 年至今(含 2026 年初最新预印本)的代表性工作,并在第四部分汇总训练系统与基座模型的工程落地路径。报告以可执行、可验证、可规模化为核心评价标准,所有结论尽量绑定到具体论文/系统与可复核的数字。

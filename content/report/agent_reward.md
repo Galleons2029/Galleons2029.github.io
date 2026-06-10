@@ -1,4 +1,10 @@
-# Agentic RL 中 Reward Signal 设计的工程实践全景调研报告
+---
+title: Agentic RL 中 Reward Signal 设计的工程实践全景调研报告
+tags:
+  - Agentic RL
+  - Reward Design
+publish: true
+---
 
 ## TL;DR
 

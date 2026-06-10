@@ -1,4 +1,10 @@
-# 自进化智能体(Self-Evolving Agents)研究全景调研报告(2024–2026)
+---
+title: 自进化智能体(Self-Evolving Agents)研究全景调研报告(2024–2026)
+tags:
+  - Agentic
+  - Self-Evolving
+publish: true
+---
 
 ## TL;DR
 - **自进化智能体已从 2023 年的概念雏形(Reflexion、Voyager)发展为 2024–2026 年有完整分类体系、专门 survey、专门安全 benchmark 的独立研究领域**;最具代表性的范式突破是 Sakana AI 的 Darwin Gödel Machine(将 SWE-bench 从 20.0% 提升到 50.0%)和 SICA(SWE-bench Verified 子集从 17% 提升到 53%),证明智能体可以通过改写自身代码持续自我改进。

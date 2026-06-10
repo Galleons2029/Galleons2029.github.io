@@ -1,5 +1,10 @@
-# SFT 要做到什么程度才能进入 RL?——LLM 后训练 SFT→RL 衔接调研报告
-
+---
+title: SFT 要做到什么程度才能进入 RL?——LLM 后训练 SFT→RL 衔接调研报告
+tags:
+  - sft
+  - post-training
+publish: true
+---
 ## TL;DR
 - **没有单一阈值,而是"双轨判断":对传统 RLHF(PPO+奖励模型),SFT 只需训练到能稳定遵循格式、产出连贯回复(InstructGPT 仅用约 13,000 条手写示范),它同时充当 RL 起点策略和 KL 参考点;对 RLVR/GRPO 推理任务,SFT 是"cold start",目标是注入格式与推理范式而非把性能拉满——业界(DeepSeek-R1、Qwen3、Nemotron)的共识是 SFT 应"够用即止",为 RL 保留探索空间。**
 - **"SFT 做太多反而损害 RL"已是被反复验证的现象:** 过度 SFT 导致熵坍缩(entropy collapse)、生成多样性/pass@k 下降,从而压缩 RL 探索空间;多篇 2025 论文表明,最高评测分的 SFT checkpoint 往往不是最优 RL 起点,应改用 pass@large-k、held-out 泛化损失、熵/self-BLEU 等多样性指标来选 checkpoint。

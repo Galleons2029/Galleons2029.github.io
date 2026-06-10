@@ -1,4 +1,10 @@
-# Long-Horizon Task 的 Agentic Reinforcement Learning 全景调研报告
+---
+title: Long-Horizon Task 的 Agentic Reinforcement Learning 全景调研报告
+tags:
+  - Agentic RL
+  - Long-Horizon Task
+publish: true
+---
 
 ## TL;DR
 - **Agentic RL 已成为训练长程(long-horizon)LLM agent 的核心范式**:它把 LLM 从单步序列生成器重构为在部分可观测、时间延展的 POMDP 中持续决策的自主体;2024–2025 年最具代表性的突破是软件工程领域的 SWE-RL(Meta,Llama3-SWE-RL-70B 在 SWE-bench Verified 达 41.0%)与 DeepSWE(Qwen3-32B 纯 RL,SWE-bench Verified 测试时扩展后 59%),以及网页/GUI 领域的 WebRL(Llama-3.1-8B 在 WebArena-Lite 从 4.8% 提升到 42.4%)与 UI-TARS-2(多轮 RL,Online-Mind2Web 88.2)。
