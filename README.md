@@ -1,31 +1,50 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# Galleons 的数字花园
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+基于 [Quartz 5](https://quartz.jzhao.xyz/) 构建的个人博客 / 数字花园，用于直接发布 Obsidian 笔记。站点地址：<https://galleons2029.github.io>
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+## 写作与发布流程
 
-# Instructions
+1. 把 Obsidian 库中的主题文件夹（连同其中的 `附件` 图片文件夹）直接拖入本仓库的 `content/` 目录，文件夹层级会原样成为网站的目录结构。
+2. 给想要公开的笔记在 frontmatter 中加上发布标记：
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+   ```yaml
+   ---
+   title: 笔记标题
+   publish: true
+   ---
+   ```
 
-See more info at https://academicpages.github.io/
+   **没有 `publish: true` 的笔记不会出现在网站上**（显式发布模式）。
+3. 提交并 push 到 `master` 分支，GitHub Actions 会自动构建并部署到 GitHub Pages。
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+参考 `content/示例笔记/` 文件夹，它演示了预期的目录结构、附件图片引用（`![[demo.png]]`）、wikilink 双链、数学公式和代码高亮的写法。
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+### 日期机制
 
-# Changelog -- bugfixes and enhancements
+文章的发布/修改时间自动记录：frontmatter 中的 `date` 字段优先；没有写 `date` 时自动取该文件的 git 提交历史时间。
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+### 注意事项
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+- `publish` 过滤只作用于 Markdown 文档，`附件` 中的图片等静态资源会原样输出。**不想公开的图片不要放进 `content/`**。
+- `content/private/`、`content/templates/`、`.obsidian/` 目录默认被忽略（见 `quartz.config.yaml` 的 `ignorePatterns`），Obsidian 库的配置文件夹可以放心一起拖进来。
+
+## 本地预览
+
+需要 Node.js ≥ 22：
+
+```bash
+npm ci
+npx quartz plugin install
+npx quartz build --serve
+```
+
+然后访问 <http://localhost:8080>。
+
+## 站点配置
+
+- `quartz.config.yaml`：站点标题、语言、插件开关（如 explicit-publish、KaTeX、评论等）
+- `.github/workflows/deploy.yml`：自动部署流水线
+
+## 一次性初始化设置
+
+首次启用需在 GitHub 仓库 **Settings → Pages** 中把 **Source** 设置为 **GitHub Actions**。
