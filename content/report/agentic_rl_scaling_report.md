@@ -1,5 +1,6 @@
 ---
 title: Agentic RL 的三重 Scaling 与工程落地调研报告
+date: 2026-05-21
 tags:
   - Agentic RL
   - RL Scaling

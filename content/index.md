@@ -11,7 +11,6 @@ lang: zh-CN
 
 📫 [Galleons@whu.edu.cn](mailto:Galleons@whu.edu.cn) · [GitHub](https://github.com/Galleons2029) · 📞 (+86) 155-5821-6267
 
-![[profile.png]]
 
 ## 研究兴趣
 

@@ -1,5 +1,6 @@
 ---
 title: SFT 要做到什么程度才能进入 RL?——LLM 后训练 SFT→RL 衔接调研报告
+date: 2025-09-04
 tags:
   - sft
   - post-training

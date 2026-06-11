@@ -1,5 +1,6 @@
 ---
 title: Agentic RL 中 Reward Signal 设计的工程实践全景调研报告
+date: 2026-05-03
 tags:
   - Agentic RL
   - Reward Design

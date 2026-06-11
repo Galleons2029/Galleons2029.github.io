@@ -1,5 +1,6 @@
 ---
 title: 自进化智能体(Self-Evolving Agents)研究全景调研报告(2024–2026)
+date: 2026-05-21
 tags:
   - Agentic
   - Self-Evolving

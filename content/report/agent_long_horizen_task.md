@@ -1,5 +1,6 @@
 ---
 title: Long-Horizon Task 的 Agentic Reinforcement Learning 全景调研报告
+date: 2026-04-03
 tags:
   - Agentic RL
   - Long-Horizon Task
