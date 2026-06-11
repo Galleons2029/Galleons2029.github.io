@@ -5,7 +5,7 @@ author:
   - "[[MiniMax]]"
 published:
 created: 2026-06-11
-description:
+description: false
 tags:
   - "clippings"
 ---
