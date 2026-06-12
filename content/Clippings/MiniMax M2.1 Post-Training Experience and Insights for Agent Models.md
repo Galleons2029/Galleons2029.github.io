@@ -3,7 +3,7 @@ title: "MiniMax M2.1: Post-Training Experience and Insights for Agent Models"
 source: "https://www.minimax.io/news/post-training-experience-and-insights-for-agent-models"
 author:
   - "[[MiniMax]]"
-published: 2026-06-11
+published: false
 created: 2026-06-11
 tags:
   - "clippings"
