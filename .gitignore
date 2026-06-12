@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Quartz build output
+public/
+
+# Quartz plugin cache & build cache
+.quartz/
+.quartz-cache/
+quartz/.quartz-cache/
+
+# TypeScript
+tsconfig.tsbuildinfo
+
+# OS / editor
+.DS_Store
+private/
+.obsidian/
