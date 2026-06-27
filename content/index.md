@@ -7,7 +7,7 @@ lang: zh-CN
 > [!info]- 🌐 Language / 语言
 > **中文（当前）** · [English](index.en)
 
-你好，我是**柳佳龙 (Jialong Liu)**，武汉大学硕士研究生（武大–上交 BCMI 实验室联合培养），导师李祖超。研究方向为 **大模型后训练（LLM Post-Training）**，尤其关注 **强化学习在智能体长程任务（Long-Horizon Tasks）中的应用**。目前在小红书担任 Agent 后训练实习生。
+你好，我是**柳佳龙 (Jialong Liu)**，武汉大学硕士研究生（武大–上交 BCMI 实验室联合培养），导师李祖超。研究方向为 **大模型后训练（LLM Post-Training）**，尤其关注 **强化学习在智能体长程任务（Long-Horizon Tasks）中的应用**。目前在小红书 dots 团队担任 Agent 后训练实习生。
 
 📫 [Galleons@whu.edu.cn](mailto:Galleons@whu.edu.cn) · [GitHub](https://github.com/Galleons2029) · 📞 (+86) 155-5821-6267
 
