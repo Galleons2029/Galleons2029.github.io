@@ -7,7 +7,7 @@ lang: zh-CN
 > [!info]- 🌐 Language / 语言
 > **中文（当前）** · [English](index.en)
 
-你好，我是**柳佳龙 (Jialong Liu)**，武汉大学硕士研究生（武大–上交 BCMI 实验室联合培养），导师李祖超。研究方向为 **大模型后训练（LLM Post-Training）**，尤其关注 **强化学习在智能体长程任务（Long-Horizon Tasks）中的应用**。目前在小米科技担任推理加速实习生。
+你好，我是**柳佳龙 (Jialong Liu)**，武汉大学硕士研究生（武大–上交 BCMI 实验室联合培养），导师李祖超。研究方向为 **大模型后训练（LLM Post-Training）**，尤其关注 **强化学习在智能体长程任务（Long-Horizon Tasks）中的应用**。目前在小红书担任 Agent 后训练实习生。
 
 📫 [Galleons@whu.edu.cn](mailto:Galleons@whu.edu.cn) · [GitHub](https://github.com/Galleons2029) · 📞 (+86) 155-5821-6267
 
@@ -36,7 +36,8 @@ lang: zh-CN
 
 ## 工程与项目
 
-- **小米 · 推理加速实习生**（2026.3–至今）：参与小米推理加速框架设计开发，贡献全模态推理框架 vLLM-Omni，使用 CUDA Graphs、内核融合等技术优化内部大模型部署。
+- **小红书 · Agent 后训练实习生**（2026.6–至今）：参与新一代 dots 模型的通用 Agent 后训练，提升其在多轮工具调用、规划与长程交互任务中的智能体能力。
+- **小米 · 推理加速实习生**（2026.3–2026.6）：参与小米推理加速框架设计开发，贡献全模态推理框架 vLLM-Omni，使用 CUDA Graphs、内核融合等技术优化内部大模型部署。
 - **Bank-Copilot**：基于 Harness 架构的 AI 银行财务管理长程 Agent，结合 Graphiti + FalkorDB 构建「向量记忆 + 图谱记忆」双通道，支持 7×24 稳定运行。
 - **Cascade-RAG**：Multi-Agent 深度研究助手，基于 LangGraph 搭建「规划–构建–验证–修复」闭环，稳定支持单篇 10,000+ 字长文报告输出。
 

@@ -7,7 +7,7 @@ lang: en-US
 > [!info]- 🌐 Language / 语言
 > **English (current)** · [中文](index)
 
-Hi, I'm **Jialong Liu (柳佳龙)**, a M.S. student at Wuhan University (jointly trained with the SJTU BCMI Lab), advised by Prof. Zuchao Li. My research focuses on **LLM post-training**, with a particular interest in **reinforcement learning for long-horizon agent tasks**. I'm currently an inference-acceleration intern at Xiaomi.
+Hi, I'm **Jialong Liu (柳佳龙)**, a M.S. student at Wuhan University (jointly trained with the SJTU BCMI Lab), advised by Prof. Zuchao Li. My research focuses on **LLM post-training**, with a particular interest in **reinforcement learning for long-horizon agent tasks**. I'm currently an Agent post-training intern at Xiaohongshu (RedNote).
 
 📫 [Galleons@whu.edu.cn](mailto:Galleons@whu.edu.cn) · [GitHub](https://github.com/Galleons2029) · 📞 (+86) 155-5821-6267
 
@@ -37,7 +37,8 @@ I currently have **4 first-author papers** accepted / under review, and actively
 
 ## Engineering & Projects
 
-- **Xiaomi · Inference-Acceleration Intern** (Mar 2026 – present): Contributing to Xiaomi's inference-acceleration framework and the open-source omni-modal framework vLLM-Omni; optimizing in-house model deployment with CUDA Graphs, kernel fusion, and related techniques.
+- **Xiaohongshu (RedNote) · Agent Post-Training Intern** (Jun 2026 – present): Working on the general-agent post-training of the next-generation dots model, improving its agentic capabilities across multi-turn tool use, planning, and long-horizon interactive tasks.
+- **Xiaomi · Inference-Acceleration Intern** (Mar 2026 – Jun 2026): Contributing to Xiaomi's inference-acceleration framework and the open-source omni-modal framework vLLM-Omni; optimizing in-house model deployment with CUDA Graphs, kernel fusion, and related techniques.
 - **Bank-Copilot**: A long-horizon AI banking/finance agent built on a Harness architecture, combining Graphiti + FalkorDB into a dual "vector memory + graph memory" channel, running 24/7.
 - **Cascade-RAG**: A multi-agent deep-research assistant built on LangGraph with a "plan–build–verify–repair" loop, reliably producing 10,000+ word reports.
 

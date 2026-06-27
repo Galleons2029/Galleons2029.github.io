@@ -71,10 +71,17 @@ publish: true
 
 ## Industry Experience
 
+### Agent Post-Training Intern
+- Location: Shanghai
+- Company: Xiaohongshu (RedNote)
+- Duration: Jun 2026 – Present
+
+- Participating in the **general-agent post-training** of Xiaohongshu's next-generation **dots** model, enhancing its agentic capabilities across multi-turn tool use, planning, and long-horizon interactive tasks.
+
 ### Inference Acceleration Intern
 - Location: Haidian, Beijing
 - Company: Xiaomi Corporation
-- Duration: Mar 2026 – Present
+- Duration: Mar 2026 – Jun 2026
 
 - Contributed to the design and development of Xiaomi's inference acceleration framework, optimizing model efficiency and resource utilization for multiple internal AI products.
 - Contributed to the open-source multimodal inference framework vLLM-Omni and adapted it for internal deployment, identifying and resolving bottlenecks across the inference pipeline.
